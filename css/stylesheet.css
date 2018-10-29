@@ -1,0 +1,46 @@
+/* stylesheet.css */
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  /*align-items: center;*/
+}
+
+/* Jumbotron */
+.jumbotron{
+  background: url('../img/background.jpg');
+  text-align: center;
+  margin-top: 50px;
+}
+
+#email {
+  width: 300px;
+}
+
+#appSummary{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.card-img-top{
+  width: 100%;
+}
+
+#appStoreIcon{
+  width: 200px;
+}
+
+#footer{
+  background-color: aqua;
+  padding-top: 150px;
+  margin-top: 50px;
+  text-align: center;
+  padding-bottom: 150px;
+}
